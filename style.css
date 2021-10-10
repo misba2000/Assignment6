@@ -1,0 +1,72 @@
+.heading1
+{
+   color:darkgoldenrod;
+   background-color: darkseagreen;
+}
+
+.heading2
+{
+   color:red;
+   background-color: cyan;
+}
+
+.heading2:hover
+{
+   color: dodgerblue;
+   background-color:firebrick;
+}
+
+input:focus
+{
+    background-color: deepskyblue;
+    color:maroon;
+}
+ 
+.span1
+{
+    background-color: orangered;
+}
+.span2
+{
+    background-color:orchid;
+}
+
+.span3
+{
+    background-color:purple;
+}
+.span4
+{
+    background-color:rosybrown;
+}
+p{
+    color: seagreen;
+    font-size:40px;
+}
+.paragraph
+{
+    background-color: burlywood;
+}
+.p
+{
+    color: chartreuse;
+    font-size: 20px;
+}
+.p:hover
+{
+    color: crimson;
+}
+div::before
+{
+    content:"Before"
+    }
+div::after
+{
+    content: "After"
+    
+    }
+    .p::first-letter
+    {
+        font-weight: bolder;
+        color: crimson;
+    }
